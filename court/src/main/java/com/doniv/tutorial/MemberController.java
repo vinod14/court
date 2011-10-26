@@ -27,7 +27,7 @@ import javax.validation.ValidatorFactory;
 
 @Controller
 // Bind controller to all URLs under/member/* 
-// initial view will be resolved to the name returned in the default GET method
+// initial view will be resolved to the name returned in the default GET method -
 @RequestMapping("/member/*")
 @SessionAttributes("guests")
 public class MemberController {
